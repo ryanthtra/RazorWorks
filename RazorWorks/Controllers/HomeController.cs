@@ -18,7 +18,7 @@ namespace RazorWorks.Controllers
         Price = 275M
       };
 
-      ViewBag.StockLevel = 2;
+      ViewBag.StockLevel = 0;
 
       return View(myProduct);
     }
